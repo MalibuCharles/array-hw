@@ -1,5 +1,8 @@
-let shoppingList = ["celery", "limes", "lemons", "grenadine", "oranges"]
+let shoppingList = ["celery", "limes", "lemons", "grenadine", "oranges", "salt"]
 
-shoppingList.push("salt")
+function grocery (shoppingList){
+    return(shoppingList)
+}
 
-console.log(shoppingList)
+
+console.log(shoppingList.forEach(function))
